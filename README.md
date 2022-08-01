@@ -18,7 +18,7 @@
 
 ## 🔖&nbsp; About
 
-The Pokemon's Store is a app that simulate a web store where it is possible to buy any Pokemon. It is a project created in order to practice some features from React, with HTTP requests. 
+The Pokemon's Store is a app that simulates a web store where it is possible to buy any Pokemon. It is a project created in order to practice some features from React, with HTTP requests. 
 
 ---
 
