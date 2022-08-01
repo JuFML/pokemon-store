@@ -1,0 +1,38 @@
+
+.home__container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  grid-template-areas: "header header header header header"
+  "body body body body shippingCart"
+  "body body body body shippingCart"
+  "body body body body shippingCart"
+  "body body body body shippingCart"
+  "body body body body shippingCart"
+  "body body body body shippingCart"
+  "body body body body shippingCart"
+  "body body body body shippingCart"
+  "body body body body shippingCart";
+}
+
+.header__container {
+  grid-area: header;
+  background-color: #011F5B;
+  box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.30);
+  border-radius: 5px;
+}
+
+.shippingcart__container {
+  grid-area: shippingCart;
+  background-color: #011F5B;
+  box-shadow: -2px 7px 21px 2px rgba(0,0,0,0.21);  
+  border-radius: 5px;
+}
+
+.body__container {
+  grid-area: body;
+  background-color: #fbf9f9;
+  box-shadow: 10px 7px 21px 2px rgba(0,0,0,0.21);  
+  border-radius: 5px;
+}
